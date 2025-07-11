@@ -1,0 +1,30 @@
+body {font-family: Arial,sans-serif;text-align: center;margin: 0;padding: 0;}  
+  
+#formulario {margin-top: 30px;}  
+input {font-size: 20px;padding: 10px;width: 300px;}  
+button {font-size: 18px;padding: 10px 20px;margin-left: 10px;}  
+#cracha {
+  display: none;
+  position: relative;
+  width: 9cm;
+  height: 13cm;
+  margin: 40px auto;
+  page-break-after: always;
+}
+#cracha img {width: 100%;height: 100%;}  
+#nome {
+  position: absolute;
+  bottom: 110px; /* subiu o nome */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 42px; /* aumentou a fonte */
+  font-weight: bold;
+  color: #000;
+  width: 80%;
+  text-align: center;
+}
+@media print {
+  #formulario {
+    display: none;
+  }
+}
